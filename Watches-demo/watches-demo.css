@@ -1,0 +1,388 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1300px;
+  margin: 0px auto;
+}
+.bg-color {
+  background-color: #f8f9fa;
+  position: sticky;
+  top: 0px;
+  z-index: 3;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+span {
+  display: inline-block;
+}
+ul {
+  list-style: none;
+}
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0px;
+}
+.menu {
+  display: flex;
+  align-items: flex-end;
+  gap: 30px;
+}
+.a-text {
+  text-decoration: none;
+  color: #717171;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+#icons-class {
+  font-size: 19px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.icons {
+  display: flex;
+}
+
+/* products section */
+.container-main {
+  width: 1200px;
+  margin: 0px auto;
+}
+#product {
+  background-color: #edf1f3;
+}
+.parent {
+  display: flex;
+  justify-content: space-between;
+}
+h1 {
+  font-size: 80px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+.shop-btn {
+  text-decoration: none;
+  background-color: #212529;
+  color: white;
+  text-transform: uppercase;
+  padding: 8px 20px;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+/* features section  */
+.boxes {
+  display: flex;
+  justify-content: space-between;
+}
+.box {
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+}
+#features {
+  padding: 70px 0;
+}
+.container-feature {
+  width: 1200px;
+  margin: 0px auto;
+}
+.grayText {
+  color: #919191;
+}
+.heading {
+  text-transform: uppercase;
+  color: #212529;
+  margin-bottom: 10px;
+}
+.lightBlue {
+  color: #72aec8;
+}
+
+/* products section  */
+.container-products {
+  width: 1200px;
+  margin: 0px auto;
+}
+#mobile-products {
+  padding: 70px 0;
+}
+.mobile-img {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.mobile-img a {
+  width: 100%;
+  color: #212529;
+}
+.mobile-head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.mobiles a {
+  text-decoration: none;
+  font-size: 21px;
+  color: #212529;
+}
+.mobiles p {
+  font-size: 21px;
+  color: #72aec8;
+}
+.mobile-head p {
+  font-size: 24px;
+  color: #212529;
+  margin-bottom: 8px;
+}
+.mobile-head a {
+  text-decoration: none;
+  font-size: 15.4px;
+  letter-spacing: 2px;
+  padding-right: 47px;
+}
+.mobile-details {
+  display: flex;
+  justify-content: space-between;
+}
+.mobile-details p a {
+  font-size: 20px;
+}
+.mobile-body {
+  width: 100%;
+  margin: 0% auto;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+.mobile-body img {
+  width: 100%;
+  height: auto;
+}
+
+/* smart watches seciton */
+.container-watches {
+  width: 1200px;
+  margin: 0px auto;
+}
+#smart-watches {
+  padding: 70px 0px;
+}
+
+/* sale section css */
+.container-sale {
+  width: 1200px;
+  margin: 0px auto;
+}
+.iphone_img {
+  width: 657px;
+  height: 677px;
+  border-radius: 50px;
+}
+#sale {
+  background-color: #edf1f3;
+  margin: 70px 0;
+}
+.left p {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+.shop-btn-sale {
+  text-decoration: none;
+  background-color: #212529;
+  color: white;
+  padding: 0.8em 2.8em;
+  font-size: 1.1em;
+  letter-spacing: 2px;
+}
+.post-des p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+/* latest posts section */
+.container-posts {
+  width: 1200px;
+  margin: 0px auto;
+}
+#subscribe {
+  margin-top: 65px;
+}
+
+/* subscribe css */
+.container-subscribe {
+  width: 1200px;
+  margin: 0px auto;
+}
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: #212529;
+  padding: 70px 0px;
+  margin-bottom: 100px;
+}
+.left h2 {
+  color: white;
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.left p {
+  color: #aeaeae;
+  font-size: 16.8px;
+}
+#email {
+  width: 282px;
+  padding:0.59rem 0.75rem;
+  line-height: 2.05;
+  font-size: 1rem;
+  /* position: fixed; */
+}
+.right a {
+  text-decoration: none;
+  background-color: #72aec8;
+  padding: 0.8em 2.8em;
+  color: white;
+  letter-spacing: 2px;
+  font-size: 1.1rem;
+  position: relative;
+  left: -3px;
+}
+.right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* shop css  */
+.shop-top h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 35px;
+  font-weight: 400;
+}
+.shop-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 30px;
+}
+.shop-bottom img {
+  width: 100%;
+  height: auto;
+}
+/* footer section  */
+#footer {
+  margin-top: 30px;
+  padding: 20px 0;
+}
+
+.footer-main {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.f-content {
+  width: 100%;
+  padding: 0px 10px 12px;
+}
+
+.f-content h2 {
+  margin-bottom: 15px;
+  font-weight: 300;
+}
+
+.f-content li {
+  padding-bottom: 10px;
+}
+
+.f-content p {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #919191;
+  margin-bottom: 40px;
+}
+
+.f-icon {
+  margin-right: 25px;
+  font-size: 20px;
+}
+
+.footer-bottom {
+  margin-top: 70px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.b-content p {
+  color: #919191;
+}
+
+.b-content {
+  display: flex;
+  gap: 5px;
+}
+.foot-icon {
+  opacity: 1px;
+}
+
+.mobile-btn-parent a{
+  background-color: #212529;
+  color: white;
+  text-transform: uppercase;
+  padding: 12px 47px;
+  width: 222px;
+  font-size: 16px;
+  border-radius: 5px;
+  position: relative;
+  top: -120px;
+  left: 40px;
+  transition: all 0.2s ease;
+}
+.mobile-btn:hover{
+  background-color: #72aec8;
+  color: white;
+}
+/* mobile products image hover  */
+.mobile-img{
+  position: relative;
+}
+.mobile-btn-parent{
+  position: absolute;
+  top: 450px;
+}
+.mobile-img .mobile-btn-parent {
+  opacity: 0;
+  transition: all 0.3s ease-out;
+}
+.mobile-img:hover .mobile-btn-parent{
+  opacity: 1;
+  translate: 0 -25px;
+}
+.mobile-img img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.mobile-img img:hover {
+  transform: scale(1.05);
+}
