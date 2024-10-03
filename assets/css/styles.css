@@ -84,11 +84,11 @@
 html {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased; }
-/* #self-img{
+#self-img{
   height: 400px;
   width: 400px;
   object-fit: cover;
-} */
+}
 body {
   font-family: "roboto", sans-serif;
   font-size: 14px;
